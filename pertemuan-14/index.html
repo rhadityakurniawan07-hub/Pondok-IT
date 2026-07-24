@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <aside class="sidebar">
+        <div class="sidebar-brand">
+          <div class="brand-icon"></div>
+          <h2>Rhaditmall</h2>
+        </div>
+        <ul class="sidebar-menu">
+          <li class="active"><a href="#">Ringkasan</a></li>
+          <li><a href="#">Analisis</a></li>
+          <li><a href="#">Pengguna</a></li>
+          <li><a href="#">Produk</a></li>
+          <li><a href="#">Pesanan</a></li>
+          <li><a href="#">Pengaturan</a></li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <header class="topbar">
+          <div class="search-box">
+            <input type="text" placeholder="Cari informasi di sini..." />
+          </div>
+          <div class="user-profile-top">
+            <div class="notification-badge"></div>
+            <div class="avatar-small"></div>
+            <span class="user-name">Rhaditmall</span>
+          </div>
+        </header>
+
+        <div class="content-body">
+          <div class="welcome-heading">
+            <h1>Dasbor Utama</h1>
+            <p>
+              Halo Rhaditmall, berikut adalah rangkuman performa bisnis Anda
+              bulan ini.
+            </p>
+          </div>
+          <div class="stats-grid">
+            <div class="card stat-card">
+              <div class="stat-header">
+                <span class="stat-title">Total Anggota</span>
+                <div class="icon-box blue"></div>
+              </div>
+              <h2 class="stat-value">2,543</h2>
+              <span class="stat-trend trend-up">+12.5% dari bulan lalu</span>
+            </div>
+
+            <div class="card stat-card">
+              <div class="stat-header">
+                <span class="stat-title">Pesanan Baru</span>
+                <div class="icon-box orange"></div>
+              </div>
+              <h2 class="stat-value">1,286</h2>
+              <span class="stat-trend trend-up">+8.2% dari bulan lalu</span>
+            </div>
+
+            <div class="card stat-card">
+              <div class="stat-header">
+                <span class="stat-title">Pendapatan</span>
+                <div class="icon-box green"></div>
+              </div>
+              <h2 class="stat-value">Rp 128.7M</h2>
+              <span class="stat-trend trend-up">+15.8% dari bulan lalu</span>
+            </div>
+
+            <div class="card stat-card">
+              <div class="stat-header">
+                <span class="stat-title">Stok Produk</span>
+                <div class="icon-box purple"></div>
+              </div>
+              <h2 class="stat-value">320 Items</h2>
+              <span class="stat-trend trend-down">-2.4% dari bulan lalu</span>
+            </div>
+          </div>
+
+          <div class="lower-grid">
+            <div class="card chart-card">
+              <div class="chart-header">
+                <h3>Ikhtisar Performa</h3>
+                <span class="chart-label">Jan - Jun 1980</span>
+              </div>
+
+              <div class="chart-placeholder">
+                <img
+                  src="assets/Area Visualisasi Grafik.jpg"
+                  alt="Visualisasi Grafik Performa"
+                  class="chart-image"
+                />
+              </div>
+            </div>
+            <div class="card profile-card">
+              <div class="profile-info">
+                <div class="avatar-large"></div>
+                <h3>Rhaditmall</h3>
+                <p class="role">Administrator</p>
+              </div>
+
+              <div class="progress-section">
+                <h4>Target Penyelesaian Pekerjaan</h4>
+
+                <div class="progress-group">
+                  <div class="progress-labels">
+                    <span>Pembaruan Sistem</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="bar-fill" style="width: 80%"></div>
+                  </div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="progress-labels">
+                    <span>Perbaikan Bug</span>
+                    <span>60%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="bar-fill" style="width: 60%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="main-footer">
+          <p>&copy; 2026 Rhaditmall. Seluruh hak cipta dilindungi Allah SWT.</p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
